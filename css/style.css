@@ -189,3 +189,10 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 320px) {
+    /* 320pxまでの幅の場合に適応される */
+        body {
+            background-color: #68B876;
+        }
+    }
